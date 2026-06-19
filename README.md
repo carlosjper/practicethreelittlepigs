@@ -14,3 +14,5 @@ Entregable:
 - Una captura de pantalla del resultado
 - Enlace al Github Pages.
 
+Captura de pantalla:
+<img width="1337" height="597" alt="Capturapantallapracticacuentotrescerditos" src="https://github.com/user-attachments/assets/8d38dcd9-7621-4cb0-8fe1-fc1dddbe048e" />
