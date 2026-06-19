@@ -14,21 +14,34 @@ main {
     font-size: 12px;         
     font-family: "Courier New";
     text-align: justify;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .boldText {
-    font-weight: bold;
+  font-weight: bold;
 }
 
+/* Contenedor principal de la lista */
 .vignetteWithdot {
-    list-style: none;    
-    padding: 0;          
-} 
+  padding-left: 20px;   /* Deja espacio a la izquierda para que se vean los puntos */
+  margin: 0;
+}
+
+/* Cada elemento de la lista (los cerditos) */
+.vignetteWithdot li {
+  list-style-type: "• "; /* Ponemos el punto directamente como viñeta nativa */
+  margin-bottom: 14px;   /* Espacio entre cada cerdito */
+  line-height: 1.5;      /* Hace el texto más cómodo de leer */
+}
+
+
+
 
 .numberedList {
+    list-style: none;       
+    padding: 0;             
+   /* counter-reset: mi-contador; */
 
-    
 }
 
 
