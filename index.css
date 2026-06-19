@@ -1,0 +1,41 @@
+body {
+    margin: 0;   
+        
+}
+
+header {
+    background-color: grey;
+    height: 100px; 
+    padding-top: 1px; 
+}
+
+main {
+    margin-left: 20px;
+    font-size: 12px;         
+    font-family: "Courier New";
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.vignetteWithdot {
+    list-style: none;    
+    padding: 0;          
+} 
+
+.numberedList {
+
+    
+}
+
+
+
+footer {
+    background-color: red;
+    padding-bottom: 30px;
+    padding: 20px;
+    
+}
