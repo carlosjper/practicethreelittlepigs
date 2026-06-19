@@ -21,28 +21,28 @@ main {
   font-weight: bold;
 }
 
-/* Contenedor principal de la lista */
 .vignetteWithdot {
-  padding-left: 20px;   /* Deja espacio a la izquierda para que se vean los puntos */
+  padding-left: 20px;   
   margin: 0;
 }
 
-/* Cada elemento de la lista (los cerditos) */
 .vignetteWithdot li {
-  list-style-type: "• "; /* Ponemos el punto directamente como viñeta nativa */
-  margin-bottom: 14px;   /* Espacio entre cada cerdito */
-  line-height: 1.5;      /* Hace el texto más cómodo de leer */
+  list-style-type: "• "; 
+  margin-bottom: 14px;   
+  line-height: 1.5;      
 }
 
-
-
-
+ 
 .numberedList {
-    list-style: none;       
-    padding: 0;             
-   /* counter-reset: mi-contador; */
-
+  padding-left: 24px;   
+  margin: 0;
 }
+
+.numberedList li {
+  list-style-type: decimal; 
+  margin-bottom: 16px;      
+  line-height: 1.5;         
+
 
 
 
